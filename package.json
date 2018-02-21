@@ -1,0 +1,40 @@
+{
+  "name": "node_angular_mysql",
+  "version": "1.0.0",
+  "description": "Angular 2 CRUD with node js and mysql/ MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "node app.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "author": "ahmed sharief",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^5.1.1",
+    "@angular/cdk": "^5.0.1",
+    "@angular/cli": "^1.6.0",
+    "@angular/material": "^5.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "html": "^1.0.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.7",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.5"
+  },
+  "engines": {
+    "node": "8.9.2",
+    "npm": "5.6.0"
+  }
+}
