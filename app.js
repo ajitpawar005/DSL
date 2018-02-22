@@ -6,7 +6,7 @@ var path = require('path');
 var cors = require('cors');
 var bodyparser = require('body-parser');
 
-
+const port=process.env.PORT || 3000;
 /**
  * This middleware provides a consistent API 
  * for MySQL connections during request/response life cycle
@@ -101,7 +101,7 @@ app.use(flash())
 
 
 //port no
-const port = 3000;
+// const port = 3000;
 
 //adding middleware - cors
 app.use(cors());
@@ -172,6 +172,6 @@ app.get('/',(req, res) =>{
 });
 
 app.listen(port, ()=>{
-    console.log('Server started at port:'+port);
+    console.log(`Server started at port: ${port}`);
 });
 
