@@ -1,14 +1,10 @@
 var config = {
 	database: {
-		host:	  'localhost', 	// database host
-		user: 	  'root', 		// your database username
-		password: '', 		// your database password
-		db: 	  'digilend' 		// your database name
+		host:	  '103.76.231.160', 	// database host
+		user: 	  'encur87f_digilus', 		// your database username
+		password: 'Gs{up-[d))R8', 		// your database password
+		db: 	  'encur87f_digilend' 		// your database name
 	},
-	server: {
-		host: '127.0.0.1',
-		port: '3000'
-	}
 }
 
 module.exports = config
